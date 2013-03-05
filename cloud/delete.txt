@@ -1,0 +1,61 @@
+--------- beginning of /dev/log/main
+D/FastDormancy(  226):  before ======= ENTER DORMANCY =======
+D/FastDormancy(  226): [FD] ON default: true
+D/FastDormancy(  226): Before mDormFlag: false in getCapaDormancy()
+D/FastDormancy(  226): After mDormFlag: false in getCapaDormancy()
+--------- beginning of /dev/log/system
+W/PowerManagerService(  129): Timer 0x3->0x3|0x0
+I/InputReader(  129): dispatchTouch::touch event's action is 0
+I/InputDispatcher(  129): Delivering touch to current input target: action: 0, channel '4093dc58 com.vodafone.cloud2/com.vodafone.cloud2.ui.media.photos.PhotosActivity (server)'
+I/ActivityManager(  129): Starting: Intent { cmp=com.vodafone.cloud2/.ui.contextmenu.ContextMenu (has extras) } from pid 1140
+W/ActivityManager(  129): Trying to launch com.vodafone.cloud2/.ui.contextmenu.ContextMenu
+I/ActivityManager(  129): Displayed com.vodafone.cloud2/.ui.contextmenu.ContextMenu: +82ms
+I/InputReader(  129): dispatchTouch::touch event's action is 1
+I/InputDispatcher(  129): Delivering touch to current input target: action: 1, channel '4093dc58 com.vodafone.cloud2/com.vodafone.cloud2.ui.media.photos.PhotosActivity (server)'
+D/FastDormancy(  226):  before ======= ENTER DORMANCY =======
+D/FastDormancy(  226): [FD] ON default: true
+D/FastDormancy(  226): Before mDormFlag: false in getCapaDormancy()
+D/FastDormancy(  226): After mDormFlag: false in getCapaDormancy()
+I/InputReader(  129): dispatchTouch::touch event's action is 0
+I/InputDispatcher(  129): Delivering touch to current input target: action: 0, channel '40827e10 com.vodafone.cloud2/com.vodafone.cloud2.ui.contextmenu.ContextMenu (server)'
+I/InputReader(  129): dispatchTouch::touch event's action is 1
+I/InputDispatcher(  129): Delivering touch to current input target: action: 1, channel '40827e10 com.vodafone.cloud2/com.vodafone.cloud2.ui.contextmenu.ContextMenu (server)'
+I/ActivityManager(  129): Starting: Intent { cmp=com.vodafone.cloud2/.ui.contextmenu.DeleteFileActivity (has extras) } from pid 1140
+W/ActivityManager(  129): Trying to launch com.vodafone.cloud2/.ui.contextmenu.DeleteFileActivity
+I/ActivityManager(  129): Displayed com.vodafone.cloud2/.ui.contextmenu.DeleteFileActivity: +56ms
+I/InputReader(  129): dispatchTouch::touch event's action is 0
+I/InputDispatcher(  129): Delivering touch to current input target: action: 0, channel '40878fa8 com.vodafone.cloud2/com.vodafone.cloud2.ui.contextmenu.DeleteFileActivity (server)'
+I/InputReader(  129): dispatchTouch::touch event's action is 1
+I/InputDispatcher(  129): Delivering touch to current input target: action: 1, channel '40878fa8 com.vodafone.cloud2/com.vodafone.cloud2.ui.contextmenu.DeleteFileActivity (server)'
+I/StatusBarPolicy(  212): onDataActivity-D:2
+D/BatteryService(  129): update start
+D/BatteryService(  129): updateBattery level:91 scale:100 status:2 health:2 present:true voltage: 4156 temperature: 350 technology: Li-ion AC powered:false USB powered:true icon:17302213
+I/StatusBarPolicy(  212): BAT. S:2 H:2
+I/StatusBarPolicy(  212): onDataActivity-D:3
+I/StatusBarPolicy(  212): onSignalStrengthsChanged
+W/PowerManagerService(  129): Timer 0x3->0x3|0x0
+I/StatusBarPolicy(  212): onDataActivity-D:0
+I/InputReader(  129): dispatchTouch::touch event's action is 0
+I/InputDispatcher(  129): Delivering touch to current input target: action: 0, channel '40878fa8 com.vodafone.cloud2/com.vodafone.cloud2.ui.contextmenu.DeleteFileActivity (server)'
+I/InputReader(  129): dispatchTouch::touch event's action is 1
+I/InputDispatcher(  129): Delivering touch to current input target: action: 1, channel '40878fa8 com.vodafone.cloud2/com.vodafone.cloud2.ui.contextmenu.DeleteFileActivity (server)'
+I/StatusBarPolicy(  212): onDataActivity-D:2
+I/StatusBarPolicy(  212): onDataActivity-D:1
+I/StatusBarPolicy(  212): onSignalStrengthsChanged
+I/StatusBarPolicy(  212): onDataActivity-D:0
+W/PowerManagerService(  129): Timer 0x3->0x3|0x0
+I/TelephonyRegistry(  129): notifyDataConnection: state=2 activeState=2 isDataConnectivityPossible=true reason=networkTypeChanged apn=web.vodafone.de interfaceName=pdp0 networkType=3
+D/NexosSvc(  385): ServicePhoneStateListenerImpl: onDataConnectionStateChanged state=2 type=3
+D/NexosSvc(  385): NexosClientImpl: notifyConnectionChanged netType=3
+D/NexosSvc(  385): NetworkAccessHelper: Using subtype 3 from PhoneStateListener
+I/beammeto(  385): [INFO ] [     385] 09:54:10.253: sip.ua.client: onMobileTechnologyChanged(): Using Transport.Cellular SIPoUDP
+I/StatusBarPolicy(  212): onDataConnectionStateChanged-S:2 T:3
+I/StatusBarPolicy(  212): updateDataNetType-T:3
+D/MobileDataStateTracker(  129): replacing old mInterfaceName (pdp0) with pdp0 for hipri
+D/MobileDataStateTracker(  129): replacing old mInterfaceName (pdp0) with pdp0 for supl
+D/MobileDataStateTracker(  129): default Received state= CONNECTED, old= CONNECTED, reason= networkTypeChanged, apnTypeList= default,supl
+D/beammeto(  385): [DEBUG] [     385] 09:54:10.280: sip.ua.client: onMobileTechnologyChanged(): 3G: IM + FT + FT-ThumbSummit + FT-HTTP + GEO/PUSH + VS + IS  (0x890078 => 0x890078)
+D/NexosSvc(  385): NetworkAccessHelper: NetworkInfo=NetworkInfo: type: mobile[UMTS], state: CONNECTED/CONNECTED, reason: gprsAttached, extra: web.vodafone.de, roaming: false, failover: false, isAvailable: true
+D/NexosSvc(  385): NetworkAccessHelper: P-Access-Network-Info: 3GPP-UTRAN; utran-cell-id-3gpp=262026525EE6B0A
+D/NexosSvc(  385): PowerLockManager: setAlarm: nextAlarm = 09:54:11.284
+I/DBG_WSS_TP(  470): [wssHttpAdapter.java Line:2174] getIsConnected connect status is false
